@@ -1,0 +1,1276 @@
+@font-face {
+    font-family: "SinKingFont";
+    src: url('//at.alicdn.com/t/font_1733166_c93n063jmf.eot?t=1586256424391'); /* IE9 */
+    src: url('//at.alicdn.com/t/font_1733166_c93n063jmf.eot?t=1586256424391#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'), url('//at.alicdn.com/t/font_1733166_c93n063jmf.woff?t=1586256424391') format('woff'), url('//at.alicdn.com/t/font_1733166_c93n063jmf.ttf?t=1586256424391') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('//at.alicdn.com/t/font_1733166_c93n063jmf.svg?t=1586256424391#SinKingFont') format('svg'); /* iOS 4.1- */
+}
+
+.SinKingFont {
+    font-family: "SinKingFont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.single2:before {
+    content: "\e636";
+}
+
+.voice:before {
+    content: "\e605";
+}
+
+.special:before {
+    content: "\e68c";
+}
+
+.zhuanji:before {
+    content: "\e625";
+}
+
+.fail:before {
+    content: "\e610";
+}
+
+.succ:before {
+    content: "\e606";
+}
+
+.sinkin-single:before {
+    content: "\e83e";
+}
+
+.clock:before {
+    content: "\e603";
+}
+
+.timers:before {
+    content: "\e613";
+}
+
+.random:before {
+    content: "\e600";
+}
+
+.on:before {
+    content: "\e631";
+}
+
+.off:before {
+    content: "\e644";
+}
+
+.left1:before {
+    content: "\e604";
+}
+
+.shunxubofang:before {
+    content: "\e617";
+}
+
+.up:before {
+    content: "\e607";
+}
+
+.angle-down:before {
+    content: "\e601";
+}
+
+.yinliang:before {
+    content: "\e63d";
+}
+
+.arrow-down:before {
+    content: "\e602";
+}
+
+.sinking-menu:before {
+    content: "\e651";
+}
+
+.yonghu:before {
+    content: "\e6d4";
+}
+
+.Playerstop:before {
+    content: "\e6a8";
+}
+
+.Playerrecrecord:before {
+    content: "\e6a9";
+}
+
+.Camera:before {
+    content: "\e6aa";
+}
+
+.Headset:before {
+    content: "\e6ab";
+}
+
+.Note:before {
+    content: "\e6ac";
+}
+
+.Notemelody:before {
+    content: "\e6ad";
+}
+
+.Photo:before {
+    content: "\e6ae";
+}
+
+.Earphones:before {
+    content: "\e6af";
+}
+
+.Headphones:before {
+    content: "\e6b0";
+}
+
+.TV:before {
+    content: "\e6b1";
+}
+
+.Playerpause:before {
+    content: "\e6b2";
+}
+
+.Notesmusic:before {
+    content: "\e6b3";
+}
+
+.Videotape:before {
+    content: "\e6b4";
+}
+
+.Playerplay:before {
+    content: "\e6b5";
+}
+
+.Photo1:before {
+    content: "\e6b6";
+}
+
+.Playerfastforward:before {
+    content: "\e6b7";
+}
+
+.Playernext:before {
+    content: "\e6b8";
+}
+
+.Lensshutter:before {
+    content: "\e6b9";
+}
+
+.Playerrecrecord1:before {
+    content: "\e6ba";
+}
+
+.Playerstop1:before {
+    content: "\e6bb";
+}
+
+.TV1:before {
+    content: "\e6bc";
+}
+
+.Videotape1:before {
+    content: "\e6bd";
+}
+
+.Earphones1:before {
+    content: "\e6be";
+}
+
+.Camera1:before {
+    content: "\e6bf";
+}
+
+.Notemelody1:before {
+    content: "\e6c0";
+}
+
+.Note1:before {
+    content: "\e6c1";
+}
+
+.Notesmusic1:before {
+    content: "\e6c2";
+}
+
+.Lensshutter1:before {
+    content: "\e6c3";
+}
+
+.Headset1:before {
+    content: "\e6c4";
+}
+
+.Photo2:before {
+    content: "\e6c5";
+}
+
+.Headphones1:before {
+    content: "\e6c6";
+}
+
+.Photo3:before {
+    content: "\e6c7";
+}
+
+.Playerplay1:before {
+    content: "\e6c8";
+}
+
+.Playernext1:before {
+    content: "\e6c9";
+}
+
+.Playerfastforward1:before {
+    content: "\e6ca";
+}
+
+.Playerpause1:before {
+    content: "\e6cb";
+}
+
+.Playerfastforward2:before {
+    content: "\e83f";
+}
+
+.Playernext2:before {
+    content: "\e840";
+}
+#SinKingMusicPlayer div,span,a,small,strong,b,i,center,ul,li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+#SinKingMusicPlayer ol, ul {
+	list-style: none;
+}
+#SinKingMusicPlayer :focus {
+	outline: 0;
+}
+
+#SinKingMusicPlayer ins {
+	text-decoration: none;
+}
+#SinKingMusicPlayer del {
+	text-decoration: line-through;
+}
+
+#SinKingMusicPlayer table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#SinKingMusicPlayer {
+    z-index: 999999999;
+    position: fixed;
+    left: 0px;
+    bottom: 50px;
+    width: 300px;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+    -khtml-user-select: none;
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    background-color: rgba(83, 83, 83, 0.5);
+    box-shadow: inset 0px 0px 10px 0px rgb(166 166 166);
+    transition: background-color 600ms linear;
+    border-radius: 5px;
+    text-align: justify !important;
+}
+    #SinKingMusicPlayer .sinking-fixed{
+        position: fixed;
+    }
+    #SinKingMusicPlayer.Close,
+    #SinKingMusicPlayer .Close {
+        -webkit-transition: 0.6s;
+        transition: 0.6s;
+        -webkit-transform: translateX(-300px);
+        transform: translateX(-300px);
+    }
+
+    #SinKingMusicPlayer.Open,
+    #SinKingMusicPlayer .Open {
+        -webkit-transition: 0.6s;
+        transition: 0.6s;
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+
+    #SinKingMusicPlayer #MusicLogo {
+        height: 140px;
+        position: relative;
+    }
+
+    #SinKingMusicPlayer #SinKingMainBackGround {
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        filter: blur(5px);
+        transform: scale(1.2);
+        animation: Ani-Main-Background 40s infinite;
+    }
+
+    #SinKingMusicPlayer #SinKingMain {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        opacity: 0.85;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    #SinKingMusicPlayer #MainLogo {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    #SinKingMusicPlayer .center {
+        line-height: normal;
+        margin: 0px auto;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+
+    #SinKingMusicPlayer > #MusicLogo > #MainLogo > .Logo {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.5);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 5px solid rgba(255, 255, 255, 0.9);
+        z-index: 1;
+    }
+
+    #SinKingMusicPlayer .Pause {
+        font-size: 35px;
+        color: white;
+        border: 3px solid white;
+        border-radius: 50%;
+        transition: all 300ms linear;
+    }
+
+.Pause:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 300ms linear;
+}
+
+@keyframes LogoRoate {
+    from {
+        transform: translateY(-50%) rotate(0)
+    }
+
+    to {
+        transform: translateY(-50%) rotate(360deg)
+    }
+}
+
+@keyframes PauseRoate {
+    from {
+        transform: translateY(-50%) rotate(360deg)
+    }
+
+    to {
+        transform: translateY(-50%) rotate(0)
+    }
+}
+
+#SinKingMusicPlayer #MainHandle {
+    position: inherit;
+    color: white;
+    margin-top: -5px;
+}
+
+#SinKingMusicPlayer #MainInfo {
+    position: inherit;
+    padding: 5px;
+    color: white;
+    font-size: 10px;
+}
+
+.SinKingCloudPlayer .sinking-row {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.SinKingCloudPlayer .item-1 {
+    flex-grow: 1;
+}
+
+.SinKingCloudPlayer .item-2 {
+    flex-grow: 2;
+}
+
+.SinKingCloudPlayer .item-3 {
+    flex-grow: 3;
+}
+
+.SinKingCloudPlayer .item-4 {
+    flex-grow: 4;
+}
+
+.SinKingCloudPlayer .item-5 {
+    flex-grow: 5;
+}
+
+.SinKingCloudPlayer .item-6 {
+    flex-grow: 6;
+}
+
+.SinKingCloudPlayer .item-7 {
+    flex-grow: 7;
+}
+
+.SinKingCloudPlayer .item-8 {
+    flex-grow: 8;
+}
+
+.SinKingCloudPlayer .item-9 {
+    flex-grow: 9;
+}
+
+.SinKingCloudPlayer .item-10 {
+    flex-grow: 10;
+}
+
+.SinKingCloudPlayer .item-11 {
+    flex-grow: 11;
+}
+
+.SinKingCloudPlayer .item-12 {
+    flex-grow: 12;
+}
+
+.SinKingCloudPlayer .right {
+    text-align: right;
+    height: 0px;
+}
+
+#SinKingMusicPlayer .info {
+    line-height: 30px;
+    height: 30px;
+}
+
+#SinKingMusicPlayer .SinKingicon {
+    width: auto !important;
+    height: auto !important;
+    font-size: 10px;
+}
+
+#SinKingMusicPlayer .icon2 {
+    font-size: 45px;
+    transition: all 300ms ease-out;
+}
+
+#SinKingMusicPlayer #MainHandle .icon2:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all 300ms ease-out;
+}
+
+#SinKingMusicPlayer #MainHandle > .sinking-panel {
+    line-height: 30px;
+    height: 30px;
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+#SinKingMusicPlayer #MusicPanel {
+    background-color: rgba(213, 213, 213, 0.75);
+    line-height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: all 300ms ease-out;
+    border-radius: 0px 0px 5px 5px;
+    color: black;
+}
+
+    #SinKingMusicPlayer #MusicPanel .SinKingicon {
+        font-size: 15px;
+        cursor: pointer;
+        transition: all 300ms ease-out;
+        color: black;
+    }
+
+        #SinKingMusicPlayer #MusicPanel .SinKingicon:hover {
+            color: #777777;
+            transition: all 300ms ease-out;
+        }
+
+    #SinKingMusicPlayer #MusicPanel > .sinking-row > .item-1 {
+        width: 25px;
+    }
+
+    #SinKingMusicPlayer #MusicPanel > .sinking-row .process {
+        position: absolute;
+        height: 20px;
+        line-height: 20px;
+        width: 195px;
+    }
+
+    #SinKingMusicPlayer #MusicPanel > .sinking-row .process_bg {
+        height: 5px;
+        background-color: #cccccc;
+        margin-top: 7.5px;
+        border-radius: 5px;
+    }
+
+    #SinKingMusicPlayer #MusicPanel > .sinking-row .process_btn {
+        width: 15px;
+        height: 15px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: -10.5px;
+        margin-left: -8px;
+        cursor: pointer;
+    }
+
+    #SinKingMusicPlayer #MusicPanel > .sinking-row .voice-panel {
+        display: none;
+        position: absolute;
+        width: 20px;
+        height: 110px;
+        background-color: rgba(189, 189, 189, 0.8);
+        top: 33px;
+        left: 1.5px;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    #SinKingMusicPlayer #MusicPanel > .sinking-row .voice-bg {
+        width: 8px;
+        background-color: #cccccc;
+        height: 100px;
+        margin: 6px;
+    }
+
+    #SinKingMusicPlayer #MusicPanel > .sinking-row .voice-been {
+        position: absolute;
+        height: 100px;
+        bottom: 0px;
+        width: 8px;
+        background-color: grey;
+    }
+
+    #SinKingMusicPlayer #MusicPanel > .sinking-row .voice-bar {
+        background-color: white;
+        position: absolute;
+        width: 13px;
+        height: 13px;
+        left: -3px;
+        top: -5px;
+        border-radius: 50%;
+    }
+
+    #SinKingMusicPlayer #MusicPanel > .sinking-row .voice-set {
+        cursor: pointer;
+    }
+
+    #SinKingMusicPlayer #MusicPanel > .sinking-row .voice-panel:hover {
+        display: block;
+    }
+
+    #SinKingMusicPlayer #MusicPanel .voice-set:hover .voice-panel {
+        display: block;
+    }
+
+#SinKingMusicPlayer #MusicList .MusicList {
+    height: 250px;
+    overflow: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+    #SinKingMusicPlayer #MusicList .MusicList::-webkit-scrollbar {
+        width: 5px !important;
+        height: 4px !important;
+        scrollbar-arrow-color: red !important;
+        background: none !important;
+    }
+
+    #SinKingMusicPlayer #MusicList .MusicList::-webkit-scrollbar-thumb {
+        border-radius: 5px !important;
+        -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2) !important;
+        background: rgba(0, 0, 0, 0.2) !important;
+        scrollbar-arrow-color: red !important;
+    }
+
+    #SinKingMusicPlayer #MusicList .MusicList::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2) !important;
+        border-radius: 0 !important;
+        background: rgba(0, 0, 0, 0.1) !important;
+    }
+
+#SinKingMusicPlayer #MusicList {
+    overflow: hidden;
+    height: 285px;
+    transition: all 400ms ease-out;
+}
+
+    #SinKingMusicPlayer #MusicList .SongSheetName {
+        font-size: 15px;
+        font-weight: bold;
+        padding: 5px;
+        color: white;
+        border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
+    }
+
+        #SinKingMusicPlayer #MusicList .SongSheetName .SinKingicon {
+            position: absolute;
+            font-size: 13px;
+            line-height: 20px;
+            overflow: hidden;
+            transition: all 300ms ease-out;
+        }
+
+#SinKingMusicPlayer .rovate-180 {
+    transform: rotate(180deg);
+}
+
+#SinKingMusicPlayer #MusicList .SongSheetName .sinking-title {
+    margin-left: 5px;
+}
+
+#SinKingMusicPlayer #MusicButton {
+    position: absolute;
+    top: 25px;
+    left: 300px;
+    width: 25px;
+    height: 60px;
+    background-color: rgba(155, 155, 155, 0.48);
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+    #SinKingMusicPlayer #MusicButton .SinKingicon {
+        position: absolute;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 4px;
+        color: #ececec;
+        transition: all 600ms ease-out;
+    }
+
+    #SinKingMusicPlayer #MusicButton:hover .SinKingicon {
+        color: #d3d3d3;
+    }
+
+@keyframes MusicList {
+    from {
+        transform: translateX(300px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+#SinKingMusicPlayer #MusicList .MusicOpen {
+    -webkit-transform: translateX(-300px);
+    transform: translateX(-300px);
+}
+
+#SinKingMusicPlayer #MusicList .MusicClose {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+}
+
+#SinKingMusicPlayer #MusicList .MusicContain {
+    width: 600px;
+    -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+    #SinKingMusicPlayer #MusicList .MusicContain > .Box {
+        float: left;
+        width: 300px;
+        overflow: hidden;
+    }
+
+    #SinKingMusicPlayer #MusicList .MusicContain.Darken .Box ul li {
+        line-height: 27px;
+        padding-left: 10px;
+        font-size: 10px;
+        border-bottom: 1px solid #676767;
+        color: black;
+        transition: all 300ms ease-out;
+        cursor: pointer;
+    }
+
+    #SinKingMusicPlayer #MusicList .MusicContain.Lighten .Box ul li {
+        line-height: 27px;
+        padding-left: 10px;
+        font-size: 10px;
+        border-bottom: 1px solid #676767;
+        color: #dfdfdf;
+        transition: all 300ms ease-out;
+        cursor: pointer;
+    }
+
+    #SinKingMusicPlayer #MusicList .MusicContain ul li:hover {
+        background-color: rgba(25, 25, 25, 0.3);
+    }
+
+#SinKingMusicPlayer .SongSheetName {
+    cursor: pointer;
+}
+
+.SinKingCloudPlayer #MusicTips {
+    z-index: 999999999;
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    background-color: #0000004f;
+    color: #ffffffcf;
+    padding: 15px;
+    font-size: 13px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+    .SinKingCloudPlayer #MusicTips.Close {
+        -webkit-transition: 0.6s;
+        transition: 0.6s;
+        -webkit-transform: translateX(-300px);
+        transform: translateX(-300px);
+    }
+
+    .SinKingCloudPlayer #MusicTips.Open {
+        -webkit-transition: 0.6s;
+        transition: 0.6s;
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+
+#SinKingMusicPlayer .SongSheetName:hover {
+    background-color: rgba(25, 25, 25, 0.3);
+}
+
+@keyframes Logo {
+    from {
+        transform: scale(0.1);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+#SinKingMusicPlayer .Ani-Logo {
+    animation: Logo 1s 1;
+}
+
+@keyframes Ani-Music {
+    0% {
+        font-size: 35px;
+    }
+
+    50% {
+        font-size: 25px;
+    }
+
+    to {
+        font-size: 35px;
+    }
+}
+
+#SinKingMusicPlayer .Ani-Music {
+    animation: Ani-Music 500ms 1;
+}
+
+@keyframes Ani-Main-Background {
+    0% {
+        transform: scale(1.0);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+.SinKingCloudPlayer #MusicLyrics {
+    z-index: 999999999;
+    position: fixed;
+    height: 35px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    bottom: 0px;
+    margin: 0px;
+    left: 0px;
+    z-index: -1;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 35px;
+    text-shadow: rgb(114, 114, 114) 1px 1px 1px, rgb(145, 145, 145) 2px 2px 2px;
+    box-shadow: inset 0px 0px 20px 0px rgb(166 166 166);
+}
+
+.SinKingCloudPlayer #MusicLyrics .Bounce {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter {
+            animation: Bounce 0.4s cubic-bezier(0.05, 0, 0.2, 1) 2 alternate;
+            display: inline-block;
+            transform: translate3d(0, 0, 0);
+        }
+
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(1) {
+            animation-delay: 0s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(2) {
+            animation-delay: 0.05s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(3) {
+            animation-delay: 0.1s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(4) {
+            animation-delay: 0.15s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(5) {
+            animation-delay: 0.2s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(6) {
+            animation-delay: 0.25s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(7) {
+            animation-delay: 0.3s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(8) {
+            animation-delay: 0.35s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(9) {
+            animation-delay: 0.4s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(10) {
+            animation-delay: 0.45s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(11) {
+            animation-delay: 0.5s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(12) {
+            animation-delay: 0.55s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(13) {
+            animation-delay: 0.6s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(14) {
+            animation-delay: 0.65s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(15) {
+            animation-delay: 0.7s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(16) {
+            animation-delay: 0.75s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(17) {
+            animation-delay: 0.8s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(18) {
+            animation-delay: 0.85s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(19) {
+            animation-delay: 0.9s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(20) {
+            animation-delay: 0.95s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(21) {
+            animation-delay: 1s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(22) {
+            animation-delay: 1.05s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(23) {
+            animation-delay: 1.1s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(24) {
+            animation-delay: 1.15s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(25) {
+            animation-delay: 1.2s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(26) {
+            animation-delay: 1.25s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(27) {
+            animation-delay: 1.3s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(28) {
+            animation-delay: 1.35s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(29) {
+            animation-delay: 1.4s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(30) {
+            animation-delay: 1.45s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(31) {
+            animation-delay: 1.5s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(32) {
+            animation-delay: 1.55s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(33) {
+            animation-delay: 1.6s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(34) {
+            animation-delay: 1.65s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(35) {
+            animation-delay: 1.7s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(36) {
+            animation-delay: 1.75s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(37) {
+            animation-delay: 1.8s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(38) {
+            animation-delay: 1.85s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(39) {
+            animation-delay: 1.9s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(40) {
+            animation-delay: 1.95s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(41) {
+            animation-delay: 2s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(42) {
+            animation-delay: 2.05s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(43) {
+            animation-delay: 2.1s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(44) {
+            animation-delay: 2.15s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(45) {
+            animation-delay: 2.2s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(46) {
+            animation-delay: 2.25s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(47) {
+            animation-delay: 2.3s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(48) {
+            animation-delay: 2.35s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(49) {
+            animation-delay: 2.4s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(50) {
+            animation-delay: 2.45s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(51) {
+            animation-delay: 2.5s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(52) {
+            animation-delay: 2.55s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(53) {
+            animation-delay: 2.6s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(54) {
+            animation-delay: 2.65s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(55) {
+            animation-delay: 2.7s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(56) {
+            animation-delay: 2.75s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(57) {
+            animation-delay: 2.8s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(58) {
+            animation-delay: 2.85s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(59) {
+            animation-delay: 2.9s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(60) {
+            animation-delay: 2.95s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(61) {
+            animation-delay: 3s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(62) {
+            animation-delay: 3.05s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(63) {
+            animation-delay: 3.1s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(64) {
+            animation-delay: 3.15s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(65) {
+            animation-delay: 3.2s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(66) {
+            animation-delay: 3.25s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(67) {
+            animation-delay: 3.3s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(68) {
+            animation-delay: 3.35s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(69) {
+            animation-delay: 3.4s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(70) {
+            animation-delay: 3.45s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(71) {
+            animation-delay: 3.5s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(72) {
+            animation-delay: 3.55s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(73) {
+            animation-delay: 3.6s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(74) {
+            animation-delay: 3.65s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(75) {
+            animation-delay: 3.7s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(76) {
+            animation-delay: 3.75s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(77) {
+            animation-delay: 3.8s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(78) {
+            animation-delay: 3.85s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(79) {
+            animation-delay: 3.9s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(80) {
+            animation-delay: 3.95s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(81) {
+            animation-delay: 4s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(82) {
+            animation-delay: 4.05s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(83) {
+            animation-delay: 4.1s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(84) {
+            animation-delay: 4.15s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(85) {
+            animation-delay: 4.2s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(86) {
+            animation-delay: 4.25s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(87) {
+            animation-delay: 4.3s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(88) {
+            animation-delay: 4.35s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(89) {
+            animation-delay: 4.4s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(90) {
+            animation-delay: 4.45s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(91) {
+            animation-delay: 4.5s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(92) {
+            animation-delay: 4.55s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(93) {
+            animation-delay: 4.6s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(94) {
+            animation-delay: 4.65s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(95) {
+            animation-delay: 4.7s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(96) {
+            animation-delay: 4.75s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(97) {
+            animation-delay: 4.8s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(98) {
+            animation-delay: 4.85s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(99) {
+            animation-delay: 4.9s;
+        }
+        
+        .SinKingCloudPlayer #MusicLyrics .Bounce .Letter:nth-child(100) {
+            animation-delay: 4.95s;
+        }
+        @keyframes Bounce {
+            0% {
+                transform: translate3d(0, 0, 0);
+                text-shadow: rgba(255, 255, 255, 0.4) 0 0 0.05em;
+            }
+            
+            100% {
+                transform: translate3d(0em, -0.4em, 0em);
+                text-shadow: rgba(255, 255, 255, 0.4) 0 1em 0.35em;
+            }
+        }
+    .SinKingCloudPlayer #MusicLyrics.Close {
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        -webkit-transform: translateY(40px);
+        transform: translateY(40px);
+    }
+
+    .SinKingCloudPlayer #MusicLyrics.Open {
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
