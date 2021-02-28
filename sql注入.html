@@ -1,0 +1,320 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<link rel="shortcut icon" href="images/xing.jpg"/>
+		<title>Grapefruits3-world</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="single is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Grapefruits</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="javascript:;">Hacker</a></li>
+								<li><a href="javascript:;">Magic</a></li>
+								<li><a href="javascript:;" onclick="javascript:window.open('magic show/magic show.html','_blank')">Art
+								appreciation</a></li>
+								<li><a href="#">Software</a></li>
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="搜索" onchange="upload(this)" />
+									</form>
+								</li>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<section id="menu">
+
+						<!-- Search -->
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="搜索" onchange="upload(this)" />
+								</form>
+							</section>
+
+						<!-- Links -->
+							<section>
+								<ul class="links">
+									<li>
+										<a href="javascript:;" onclick="javascript:window.open('https://www.shentoushi.top/','_blank')">
+											<h3>渗透平台推荐</h3>
+											<p>渗透师：网络安全从业者安全导航</p>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:;" onclick="javascript:window.open('https://www.hackjie.com/','_blank')">
+											<h3>渗透平台推荐</h3>
+											<p>黑客街：黑客技术入门</p>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:;" onclick="javascript:window.open('https://www.ddosi.com/','_blank')">
+											<h3>渗透平台推荐</h3>
+											<p>🔰雨苁ℒ🔰,暗网,黑客,极客,渗透测试,专注信息安全,数据泄露,个人隐私保护</p>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:;" onclick="javascript:window.open('https://github.com/','_blank')">
+											<h3>渗透平台推荐</h3>
+											<p>Github</p>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:;" onclick="javascript:window.open('https://www.fismquebec2021.com/','_blank')">
+											<h3>魔术平台推荐</h3>
+											<p>FISM魔术世界大会</p>
+										</a>
+									</li>
+								</ul>
+							</section>
+
+						<!-- 登陆 -->
+							<!-- <section>
+								<ul class="actions stacked">
+									<li><a href="#" class="button large fit">Log In</a></li>
+								</ul>
+							</section>
+ -->
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="sql注入.html" >MySql注入攻击笔记（从入门到弃坑篇）</a></h2>
+										<p>SQL注入是比较常见的网络攻击方式之一。</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2021-02-22">2021年2月22日</time>
+										<a href="sql注入.html"  class="author">
+											<span class="name">MySql注入</span>
+											<img src="images/2.22.jpg" alt="喵喵~" />
+										</a>
+									</div>
+								</header>
+								<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
+								<p>一、sql注入
+									<br>&#8195;
+									&emsp;摘要：SQL漏洞：SQL注入攻击是通过操作输入来修改SQL语句，用以达到执行代码对WEB服务器进行攻击的方法。SQL注入攻击者在HTTP请求中输入含有恶意构造且语法合法的SQL语句，只要应用程序中没有做严格的处理（例如校验或预拼接），那么就会出现SQL注入漏洞危险，目前以PHP、Perl、Cold
+									Fusion
+									Management等技术与Oracle、SQLServer、Sybase、DB2等数据管理系统相结合的Web应用程序都发现有SQL注入漏洞。遂步系统性的学习一下sql注入攻击，本系列文章会从sql注入的基础开始，结合一些攻击靶场实例来学习sql注入的构成，最后对sql注入进行分析如何有效的防御攻击。
+								</p>
+								<p>一、sql注入原理<br>
+								&#8195;1、概念：当web应用向后台数据库传递sql语句进行数据库操作时。如果对用户输入的参数没有经过严格的过滤处理，攻击者就可以构造特殊的sql语句，直接输入语句执行操作数据库，获取或修改数据库的数据
+								<br>&#8195;2、本质：把用户输入的数据当作代码来执行，违背“数据与代码分离”的原则
+								<br>&#8195;3、sql漏洞的关键条件
+								<br>&#8195;&#8195;1)用户能控输入的内容
+								<br>&#8195;&#8195;2)Web应用会把用户输入的内容带入到数据库中执行
+								<br>&#8195;4、sql漏洞的危害：脱库/getshell
+								<br>&#8195;&#8195;1)getshell：获取后台权限
+								<br>&#8195;5、万能用户名/万能密码：
+								<br>&#8195;&#8195;1)admin' -- -
+								<br>&#8195;&#8195;2)'or 1=1 -- -
+								二、sql注入一般流程<br>&#8195;
+									1、判断请求方式、注入点和包裹符<br>&#8195;&#8195;
+											1' and 1=1 -- -	/1' and 1=2 -- -<br>&#8195;&#8195;
+											1 and 1=1 -- -/1 and 1=2 -- -<br>&#8195;
+									2、判断字段数量<br>&#8195;&#8195;
+											判断存在多少字段<br>&#8195;&#8195;&#8195;
+											1’ order by 1-- -<br>&#8195;
+									3、判断显示位置<br>&#8195;&#8195;
+											判断数据库中的几个字段显示在前端<br>&#8195;&#8195;&#8195;
+												1' union select 1,2,3<br>&#8195;
+									3.5、判断注入方式<br>&#8195;
+									4、查询数据库名称<br>&#8195;&#8195;
+											一库：information：存放的是库的信息<br>&#8195;
+									5、查询数据表名称<br>&#8195;&#8195;
+											三表：<br>&#8195;&#8195;&#8195;
+												schemata：存放的是库的信息  <br>&#8195;&#8195;&#8195;
+												tables：存放的是全部表信息<br>&#8195;&#8195;&#8195;
+												columns：存放的是数据库中全部的字段信息<br>&#8195;
+									6、查询字段名称<br>&#8195;&#8195;
+											六字段：<br>&#8195;&#8195;&#8195;
+												schema_name：全部库的名字<br>&#8195;&#8195;&#8195;
+												table_name:全部表的名字<br>&#8195;&#8195;&#8195;
+												table_schema：数据表属于哪一个库<br>&#8195;&#8195;&#8195;
+												column_name:全部字段的名字<br>&#8195;&#8195;&#8195;
+												table_name：字段属于哪一个表<br>&#8195;&#8195;&#8195;
+												table_schema：字段属于哪一个库<br>&#8195;
+									7、查询数据<br>&#8195;
+									8、破解数据<br>&#8195;
+									9、提升权限<br>&#8195;
+									10、内网渗透<br>&#8195;
+									三、sql注入常用函数<br>&#8195;&#8195;
+										user()//system_user()//current_user()//session_user():   返回当前使用数据库的用户<br>&#8195;&#8195;
+										version()//@@version:   返回当前数据库的版本<br>&#8195;&#8195;
+										database()：   返回当前使用的数据库<br>&#8195;&#8195;
+										@@datadir：   返回数据库所在位置<br>&#8195;&#8195;
+										@@base:     返回数据库的安装路径<br>&#8195;&#8195;
+										@@version_compile_os：   返回当前操作系统版本<br>&#8195;&#8195;
+										concat():      用于将多个字符连接成一个字符串<br>&#8195;&#8195;
+										group_concat():   用于将多行字符拼接成一行<br>&#8195;&#8195;
+										concat_ws():     使用方法concat_ws(separator, str1, str2, ...)，第一个参数为分符，把从第二个参数开始的字符拼接起来，并用第一个参数的分隔符隔开。<br>&#8195;&#8195;
+										substr()//substring()//mid():   用法基本相同，截取字符串的一部分<br>&#8195;&#8195;
+										left()//right():    从规定字符串的左边/右边开始截取字符串<br>&#8195;&#8195;
+										if(arg1,arg2,arg3):   if判断语句<br>&#8195;&#8195;
+										case when arg1 then arg2 else arg3 end:   when判断语句<br>&#8195;&#8195;
+										length(arg):   返回目标字符串的长度<br>&#8195;&#8195;
+										ascii(arg)/ord(arg):   返回目标字符对应的ASCII码<br>&#8195;&#8195;
+										char（arg）：  返回ASCII码对应的字符串<br>&#8195;&#8195;
+										hex()：  将目标字符转换成16进制格式的数据<br>&#8195;&#8195;
+										unhex():   将16进制格式数据转换成原字符串<br>&#8195;
+										四、sql注入方式<br>&#8195;&#8195;
+											1、联合查询注入：有显示位时使用联合查询<br>&#8195;&#8195;&#8195;
+												例：?id=1' union select 1,2,shcema_name from information_schema.schemas -- -<br>&#8195;&#8195;
+											2、报错注入：在没有显示位，有报错信息时使用报错注入（注！：updatexml() 的显示有32位的长度限制和mysql版本的限制，版本限制在5.1以上）<br>&#8195;&#8195;&#8195;
+												例：?id=1' or updatexml(1,concat(0x7e,datebase()),2) -- -<br>&#8195;&#8195;&#8195;
+												例:id=1 or updatexml(1,concat(0x7e,(select schema_name from information_schema.schemata limit 0,1)),3) -- -<br>&#8195;&#8195;
+											3、布尔注入：在没有显示为，没有报错信息，有是否登录成功时，使用布尔注入<br>&#8195;&#8195;&#8195;
+												例:1' or (select ascii(substr(schema_name,1,1)) from information_schema.schemata limit 1,1)=100 -- -<br>&#8195;&#8195;
+											4、延时注入：在没有显示位，报错信息，是否登陆成功时，使用延时注入<br>&#8195;&#8195;&#8195;
+												例:?id=1' or select if(1=1,sleep(3),'goodbye')<br>&#8195;&#8195;
+											5、堆叠注入：在网站的php中mysql语句使用的是mysql_multi_query()时，可以使用堆叠注入（注！：那到数据库中的数据后在进行堆叠注入）<br>&#8195;&#8195;&#8195;
+												例:?id=1' ; update users set password=123456 where user_name='tom'  -- -<br>&#8195;&#8195;
+											6、二次注入：登录、注册、忘记密码页面无法注入时，注册新用户可以输入特殊字符时，使用二次注入。注册用户名为：admin’-- -，使用该用户修改密码时，会修改别的用户密码<br>&#8195;&#8195;&#8195;
+									1)执行因素：根据猜测，得出在进行密码重置的时候和可能验证了用户名，并且该用户名并不是由用户输入，而是通过用户登陆成功之后的session信息传递的，很可能没有进行过滤就直接拼接到SQL语句中。<br>&#8195;&#8195;
+											7、宽字节注入：宽字节注入的mysql数据库必须是gbk编码,否则无法转义字符。如果想避免宽字节注入的产生，应当限定使用mysql_set_charset(GBK)来指定字符集，并且使用mysql_real_escape_string进行转义。<br>&#8195;&#8195;&#8195;
+												例：?id=1%df' and 1=1 -- -<br>&#8195;&#8195;&#8195;
+									1)宽字节转义的php语句函数<br>&#8195;&#8195;&#8195;&#8195;
+									①　addslashes()<br>&#8195;&#8195;&#8195;&#8195;
+									②　mysqli_real_escape_string()<br>&#8195;&#8195;&#8195;&#8195;
+									③　mysql_escape_string()<br>&#8195;&#8195;&#8195;&#8195;
+									④　Magic_quotes_gpc<br>&#8195;&#8195;
+											8、二次解码注入：可以在bp抓包修改cookie缓存的加密的代码，也可以在浏览器的控制台去修改本地的cookie。url解码函数：urldecode()，rawurldecode()<br>&#8195;&#8195;&#8195;
+												例：document.cookie="uname=Dumb') union select 1,2"<br>&#8195;&#8195;
+											9、其他注入<br>&#8195;&#8195;&#8195;
+												增insert<br>&#8195;&#8195;&#8195;&#8195;
+													insert into user (uname,passwd) values("admin' -- -","123456" );<br>&#8195;&#8195;&#8195;
+												改update<br>&#8195;&#8195;&#8195;&#8195;
+													update user set passwd="md5加密后的密码" where uname='admin -- -'<br>&#8195;&#8195;&#8195;
+												删delete<br>&#8195;&#8195;&#8195;&#8195;
+													‘or updatexml(1,0x7e,3) or '<br>&#8195;&#8195;
+								</p>
+								<footer>
+									
+								</footer>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						
+						<p class="copyright"> Copyright &copy;2021 grapefruits, supported by GitHub <br>友情链接： <a href="https://github.com/">github</a></p>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script type="text/javascript" class="autoinsert" src="assets/js/jquery-1.2.6.min.js"></script>
+			<script src="assets/js/snowfall.jquery.js"></script>
+			<!--鼠标点击爱心-->
+			<script src="assets/js/aixin.js"></script>
+			<!-- title变化 -->
+			<script type="text/javascript">
+				 var hiddenProperty = 'hidden' in document ? 'hidden' :
+					 'webkitHidden' in document ? 'webkitHidden' :
+					 'mozHidden' in document ? 'mozHidden' : null;
+				 var title = document.querySelector('title');
+				 var visibilityChangeEvent = hiddenProperty.replace(/hidden/i, 'visibilitychange');
+				 var onVisibilityChange = function() {
+					 if (!document[hiddenProperty]) {
+						 title.innerHTML = '<(￣3￣)>欢迎回来小可爱~';
+						 setTimeout(() => {
+							 title.innerHTML = 'Grapefruits3-world';
+						 }, 2000)
+					 } else {
+						 title.innerHTML = ' Ծ‸Ծ Come back baby~';
+					 }
+				 }
+				 document.addEventListener(visibilityChangeEvent, onVisibilityChange);
+					
+			</script>
+			<!--花瓣-->
+			<script>
+			
+					$(document).snowfall('clear');
+			
+					$(document).snowfall({
+			
+						image: "images/huaban.png",
+			
+						flakeCount:30,
+			
+						minSize: 5,
+			
+						maxSize: 22
+			
+					});
+			
+			</script>
+				<script type="text/javascript">
+					
+					
+					//前端读取本地文件的内容   下面代码中的this.result即为获取到的内容
+					function upload(input) {  //支持chrome IE10  
+					    if (window.FileReader) {  
+					        var file = input.files[0];  
+					        filename = file.name.split(".")[0];  
+					        var reader = new FileReader();  
+					        reader.onload = function() {  
+					            console.log(this.result)  
+					            alert(this.result);  
+					        }  
+					        reader.readAsText(file);  
+					    }   
+					    //支持IE 7 8 9 10  
+					    else if (typeof window.ActiveXObject != 'undefined'){  
+					        var xmlDoc;   
+					        xmlDoc = new ActiveXObject("Microsoft.XMLDOM");   
+					        xmlDoc.async = false;   
+					        xmlDoc.load(input.value);   
+					        alert(xmlDoc.xml);   
+					    }   
+					    //支持FF  
+					    else if (document.implementation && document.implementation.createDocument) {   
+					        var xmlDoc;   
+					        xmlDoc = document.implementation.createDocument("", "", null);   
+					        xmlDoc.async = false;   
+					        xmlDoc.load(input.value);   
+					        alert(xmlDoc.xml);  
+					    } else {   
+					        alert('error');   
+					    }   
+					}  
+					
+
+				</script>
+
+	</body>
+</html>
