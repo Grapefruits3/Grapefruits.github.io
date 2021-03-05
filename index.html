@@ -373,19 +373,9 @@
 					maxSize: 22
 				});
 		</script>
-		<script type="text/javascript">
-			 //play()开启    paused()暂停  ===>JS
-			$(".BGM").click(function(){
-				var $index = $(this).index();
-				var music = $(".music")[$index];
-				if (music.paused) {
-					music.play();
-				}
-			})
-			
-			
-		</script>
-	
-		<audio class="music" src="music/River Flows In You - 이루마 (李闰珉).mp3" autoplay="autoplay">
+		
+		<script src="//music.clwl.online/Player/player.min.js" id="SinKingMusic" key="449"></script>
+		<link rel="stylesheet" type="text/css" href="https://music.clwl.online/Player/player.min.css">
+		
 	</body>
 </html>
