@@ -23,12 +23,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="assets/js/jQuery3.5.1.js"></script>
 		
 	</head>
 	
 
 	<body class="is-preload">
-
+		
 		<!-- Wrapper -->
 		<div id="wrapper">
 
@@ -203,7 +204,6 @@
 				<section id="intro">
 					<a href="javascript:;" class="logo">
 						<img src="images/head%20portrait.jpg" alt="" />
-						
 					</a>
 					<header>
 						<h2>西柚</h2>
@@ -373,7 +373,19 @@
 					maxSize: 22
 				});
 		</script>
+		<script type="text/javascript">
+			 //play()开启    paused()暂停  ===>JS
+			$(".BGM").click(function(){
+				var $index = $(this).index();
+				var music = $(".music")[$index];
+				if (music.paused) {
+					music.play();
+				}
+			})
+			
+			
+		</script>
 	
-
+		<audio class="music" src="music/River Flows In You - 이루마 (李闰珉).mp3" autoplay="autoplay">
 	</body>
 </html>
